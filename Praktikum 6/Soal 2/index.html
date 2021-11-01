@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Soal 2</title>
+        <meta name =”author” content="Nicholas_Christopher_Rudy 2172020">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        body{
+            background-image: url(assets/background.jpg);
+            font-family: 'Mulish', sans-serif;
+            background-size:cover;
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+        }
+        div{
+            margin-right: auto;
+            margin-left: auto;
+            width: 300px;
+            padding: 20px 20px;
+            line-height: 30px;
+        }
+        #box1{background-color: rgba(200, 214, 229,0.8); height: 700px;}
+        #box2{background-color: rgba(220, 221, 225,0.8);}
+        #sign{height: 40px;background-color:#2ed573;border-radius: 25px;width:150px;border:none; color: white;}
+        #sign:hover{height: 40px; border: 2px solid #2ed573;background-color: transparent;border-radius: 25px;width:150px;color:#2ed573;transition: 0.3s;}
+        #regis{height: 40px;background-color:#38ada9;border-radius: 25px;width:150px;border:none; color: white;}
+        #regis:hover{height: 40px; border: 2px solid #38ada9;background-color: transparent;border-radius: 25px;width:150px;color:#38ada9;transition: 0.3s}
+        #text{width: 250px; background-color: rgba(0, 0, 0, 0.0);border: none; border-bottom: 2px solid #b5c1cf; outline: none;}
+        h1{text-align:center; color: #413c9f;}
+        h2{text-align:center; color:#283443; font-size: 30px;}
+        p{color:#7a889c;font-size: 15px;}
+        #forgot{color: blue;}
+    </style>
+    <body>
+        <h1><b>Fill in this form</b></h1>
+        <br>
+        <div id="box1" style="float: left;margin-left: 420px">
+            <br><br>
+            <h2><i><b>Sign in</b></i></h2>
+            <br>
+            <p>Email</p>
+            <input type="text" id="text" placeholder="nrp@maranatha.ac.id">
+            <p>Password</p>
+            <input type="password" id="text">
+            <br><br><br><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="button" value="Sign in" id="sign" align="center">
+            <p id="forgot" align="center">forgot password?</p>
+        </div>
+        <div id="box2" style="float: right;margin-right: 403px">
+            <h2><i><b>Register</b></i></h2>
+            <p>Name</p>
+            <input type="text" id="text">
+            <p>Email</p>
+            <input type="text" id="text">
+            <p>Date of birth</p>
+            <input type="date" id="text">
+            <p>Address</p>
+            <input type="text" id="text">
+            <p>Gender</p>
+            <input type="radio" name="name">Male
+            <input type="radio" name="name">Female
+            <p>Hobby</p>
+            <input type="checkbox" name="name">Singing <br>
+            <input type="checkbox" name="name">Playing <br>
+            <input type="checkbox" name="name">Ngoding <br><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="button" value="Register" id="regis">
+        </div>
+    </body>
+</html>
